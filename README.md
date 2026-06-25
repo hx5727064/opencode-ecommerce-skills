@@ -1,8 +1,230 @@
-# OpenCode 电商运营技能集
+# OpenCode E-commerce Operations Skill Collection
 
-为OpenCode AI助手提供的电商运营技能集，涵盖从选品到运营的全流程。
+A comprehensive e-commerce operations skill collection for OpenCode AI assistants, covering the entire workflow from product selection to operations.
 
-## 技能列表
+[中文版](#中文版) | [English](#english-version)
+
+---
+
+## English Version
+
+### Overview
+
+This repository contains 5 specialized AI agent skills for e-commerce operations, designed to work with OpenCode AI assistants. Each skill provides expert-level guidance for specific aspects of e-commerce operations.
+
+### Skills Overview
+
+| Skill | Description | Trigger Keywords |
+|-------|-------------|------------------|
+| `ecommerce-product-selection` | E-commerce product selection expert | product selection, market analysis, competitor analysis, trend forecasting |
+| `ecommerce-ops-setup` | E-commerce team & system design expert | team building, role definition, process standardization |
+| `ai-agent-design` | AI Agent architecture design expert | agent design, multi-agent collaboration, self-organizing architecture |
+| `ecommerce-deployment` | E-commerce system deployment expert | Docker, deployment, operations, monitoring, alerting |
+| `agent-collaboration` | AI Agent collaboration workflow expert | agent collaboration, message flow, task assignment, state machine |
+
+### Installation
+
+#### Method 1: Direct Installation (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/hx5727064/opencode-ecommerce-skills.git
+
+# Navigate to directory
+cd opencode-ecommerce-skills
+
+# Install to OpenCode
+opencode skills install .
+```
+
+#### Method 2: Individual Skill Installation
+
+```bash
+# Install individual skills
+opencode skills install ./ecommerce-product-selection
+opencode skills install ./ecommerce-ops-setup
+opencode skills install ./ai-agent-design
+opencode skills install ./ecommerce-deployment
+opencode skills install ./agent-collaboration
+```
+
+### Usage Examples
+
+After installation, trigger skills using natural language in OpenCode:
+
+```
+# Product Selection
+> Help me analyze the smart home product market in the US using the Six Forces Model
+
+# Team Building
+> Design a 5-person e-commerce team organizational structure
+
+# Agent Architecture
+> Design a self-organizing agent team for daily operations tasks
+
+# System Deployment
+> Deploy the AI operations system to a Docker environment
+
+# Agent Collaboration
+> Design a complete workflow from product selection → procurement → listing → promotion
+```
+
+### Skill Details
+
+#### 1. E-commerce Product Selection (`ecommerce-product-selection`)
+
+**Core Capabilities**:
+- Six Forces Model Assessment (Market Size, Competition Level, Profit Margin, Supply Chain Difficulty, Trend Heat, Risk Level)
+- Three Explosive Models (Explosive Product, Explosive Style, Explosive Point) Design
+- Market Opportunity Scorecard
+- Deep Competitor Analysis
+- Risk Assessment Matrix
+- Data-driven Decision Support
+
+**Trigger Keywords**:
+- product selection, product decision, product analysis
+- market analysis, market research, market opportunity
+- competitor analysis, competitor research
+- trend forecasting, trend analysis
+- product evaluation, product screening
+
+#### 2. E-commerce Team & System Design (`ecommerce-ops-setup`)
+
+**Core Capabilities**:
+- Organizational Structure Design (Flat/Matrix/Agile Teams)
+- Role & Responsibility Definition (From CEO to Operations Specialist)
+- Core Role KPI Design
+- Standard Operating Procedures (SOP) Design
+- KPI System Design
+- Team Training Plan
+
+**Trigger Keywords**:
+- team building, team design, organizational structure
+- role setting, job description, role definition
+- process standardization, SOP design
+- KPI design, performance evaluation
+- team training, talent development
+
+#### 3. AI Agent Architecture Design (`ai-agent-design`)
+
+**Core Capabilities**:
+- Five-Component Agent Architecture (LLM + Memory + Planning + Tools + Action)
+- Same-API Role Isolation Solutions
+- Multi-Agent Collaboration Architecture
+- Self-Organizing Agent Teams (Meta-Agent Pattern)
+- State Machine Design
+- Exception Handling Mechanism
+- Cost Optimization Strategy
+
+**Trigger Keywords**:
+- agent design, agent architecture
+- multi-agent collaboration, multi-agent system
+- self-organizing architecture, meta-agent
+- role isolation, agent isolation
+- state machine, workflow design
+
+#### 4. E-commerce System Deployment (`ecommerce-deployment`)
+
+**Core Capabilities**:
+- Docker Container Deployment
+- Docker Compose Service Orchestration
+- Environment Variable Configuration
+- Monitoring & Alerting (Prometheus + Grafana)
+- Backup & Recovery Strategy
+- Security Configuration
+- Performance Optimization
+
+**Trigger Keywords**:
+- deployment, Docker, Docker Compose
+- operations, environment configuration, server setup
+- monitoring, alerting, Prometheus, Grafana
+- backup, recovery, data persistence
+- security configuration, SSL certificates
+
+#### 5. Agent Collaboration Workflow (`agent-collaboration`)
+
+**Core Capabilities**:
+- Message Flow Specification Design
+- Task State Machine Design
+- Parallel Execution Engine
+- Exception Escalation Mechanism
+- Collaboration Monitoring & Audit
+- Cross-Agent Communication Protocol
+
+**Trigger Keywords**:
+- agent collaboration, agent communication
+- message flow, message passing
+- task assignment, task scheduling
+- state machine, state management
+- parallel execution, asynchronous execution
+- exception escalation, exception handling
+
+### System Requirements
+
+- OpenCode v0.1.0+
+- Python 3.8+
+- Node.js 16+
+
+### Related Projects
+
+- [AI Operations System Architecture](https://github.com/hx5727064/ai-ecommerce-ops) - Complete AI operations system implementation
+- [E-commerce Operations Documentation](https://github.com/hx5727064/ecommerce-operations-docs) - Complete e-commerce operations documentation set
+
+### Contributing
+
+Contributions are welcome! Please create SKILL.md files following this format:
+
+```yaml
+---
+name: your-skill-name
+description: Skill description with trigger keywords
+---
+
+# Skill Name
+
+## Core Capabilities
+1. Capability 1
+2. Capability 2
+3. Capability 3
+
+## Trigger Keywords
+- keyword1
+- keyword2
+- keyword3
+
+## Output Format
+### Format 1
+[Template]
+
+### Format 2
+[Template]
+
+## Best Practices
+- Practice 1
+- Practice 2
+
+## Important Notes
+- Note 1
+- Note 2
+```
+
+### License
+
+MIT License
+
+### Author
+
+AI Operations System Team
+
+---
+
+## 中文版
+
+### 概述
+
+本仓库包含5个专门用于电商运营的AI Agent技能，专为OpenCode AI助手设计，涵盖从选品到运营的全流程。
+
+### 技能列表
 
 | 技能 | 描述 | 触发关键词 |
 |------|------|------------|
@@ -12,13 +234,13 @@
 | `ecommerce-deployment` | 电商系统部署运维专家 | Docker、部署、运维、监控、告警 |
 | `agent-collaboration` | AI Agent协作流程专家 | Agent协作、消息流转、任务分配、状态机 |
 
-## 安装方法
+### 安装方法
 
-### 方法1：直接安装（推荐）
+#### 方法1：直接安装（推荐）
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/opencode-ecommerce-skills.git
+git clone https://github.com/hx5727064/opencode-ecommerce-skills.git
 
 # 进入目录
 cd opencode-ecommerce-skills
@@ -27,7 +249,7 @@ cd opencode-ecommerce-skills
 opencode skills install .
 ```
 
-### 方法2：单个技能安装
+#### 方法2：单个技能安装
 
 ```bash
 # 安装单个技能
@@ -38,7 +260,7 @@ opencode skills install ./ecommerce-deployment
 opencode skills install ./agent-collaboration
 ```
 
-## 使用方法
+### 使用方法
 
 安装后，在OpenCode中直接使用自然语言触发技能：
 
@@ -59,9 +281,9 @@ opencode skills install ./agent-collaboration
 > 设计选品→采购→上架→推广的完整协作流程
 ```
 
-## 技能详情
+### 技能详情
 
-### 1. 电商选品决策 (`ecommerce-product-selection`)
+#### 1. 电商选品决策 (`ecommerce-product-selection`)
 
 **核心能力**：
 - 六力模型评估（市场容量、竞争程度、利润空间、供应链难度、趋势热度、风险等级）
@@ -78,7 +300,7 @@ opencode skills install ./agent-collaboration
 - 趋势预测、趋势分析
 - 产品评估、产品筛选
 
-### 2. 电商团队与系统设计 (`ecommerce-ops-setup`)
+#### 2. 电商团队与系统设计 (`ecommerce-ops-setup`)
 
 **核心能力**：
 - 组织架构设计（扁平化/矩阵式/敏捷小组）
@@ -95,7 +317,7 @@ opencode skills install ./agent-collaboration
 - KPI设计、绩效考核
 - 团队培训、人才培养
 
-### 3. AI Agent架构设计 (`ai-agent-design`)
+#### 3. AI Agent架构设计 (`ai-agent-design`)
 
 **核心能力**：
 - 五组件Agent架构设计（LLM+记忆+规划+工具+行动）
@@ -113,7 +335,7 @@ opencode skills install ./agent-collaboration
 - 角色隔离、Agent隔离
 - 状态机、工作流设计
 
-### 4. 电商系统部署 (`ecommerce-deployment`)
+#### 4. 电商系统部署 (`ecommerce-deployment`)
 
 **核心能力**：
 - Docker容器化部署
@@ -131,7 +353,7 @@ opencode skills install ./agent-collaboration
 - 备份、恢复、数据持久化
 - 安全配置、SSL证书
 
-### 5. Agent协作流程 (`agent-collaboration`)
+#### 5. Agent协作流程 (`agent-collaboration`)
 
 **核心能力**：
 - 消息流转规范设计
@@ -149,18 +371,18 @@ opencode skills install ./agent-collaboration
 - 并行执行、异步执行
 - 异常升级、异常处理
 
-## 系统要求
+### 系统要求
 
 - OpenCode v0.1.0+
 - Python 3.8+
 - Node.js 16+
 
-## 相关项目
+### 相关项目
 
-- [AI运营系统架构](https://github.com/your-username/ai-ecommerce-ops) - 完整的AI运营系统实现
-- [电商运营文档](https://github.com/your-username/ecommerce-operations-docs) - 电商运营完整文档集
+- [AI运营系统架构](https://github.com/hx5727064/ai-ecommerce-ops) - 完整的AI运营系统实现
+- [电商运营文档](https://github.com/hx5727064/ecommerce-operations-docs) - 电商运营完整文档集
 
-## 贡献指南
+### 贡献指南
 
 欢迎贡献新的技能！请按照以下格式创建SKILL.md文件：
 
@@ -198,10 +420,10 @@ description: 技能描述，包含触发关键词
 - 注意2
 ```
 
-## 许可证
+### 许可证
 
 MIT License
 
-## 作者
+### 作者
 
 AI运营系统团队
